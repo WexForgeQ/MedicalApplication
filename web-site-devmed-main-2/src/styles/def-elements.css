@@ -1,0 +1,238 @@
+@import url('variables.css');
+
+/*Download button*/
+.download-button {
+    background-color: var(--main-color);
+    border-radius: var(--button-border-raduis);
+    border-width: 3px;
+    border-color: var(--main-color);
+    border-style: solid;
+    height: 49px;
+    width: 261px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07px;
+}
+
+.download-button:hover {
+    transition: var(--base-hover-transition);
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+
+/*Partners form submit button*/
+.partners-form-submit-button {
+    border-radius: var(--button-border-raduis);
+    border-color: var(--main-color);
+    border-style: solid;
+    border-width: 3px;
+    background-color: transparent;
+    height: 55px;
+    width: 264px;
+    color: var(--main-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07px;
+    cursor: pointer;
+}
+
+.partners-form-submit-button:hover {
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: var(--white-color);
+    transition: var(--base-hover-transition);
+}
+
+.partners-form-submit-button:hover a {
+    color: var(--white-color);
+}
+/*Partners form input*/
+.partners-form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.partners-form-input label {
+    padding-bottom: 8px;
+    color: var(--main-grey-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.partners-form-input input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 2px solid #BBB;
+    color: var(--text-color);
+}
+
+.partners-form-input input::placeholder {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #BBB;
+}
+
+/*Web-client link button*/
+.web-client-link-button {
+    border-radius: var(--button-border-raduis);
+    border-color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    background-color: transparent;
+    height: 45px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 26px;
+    padding-right: 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: fit-content;
+}
+
+.web-client-link-button:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #114878;
+    transition: var(--base-hover-transition);
+}
+
+.web-client-link-button:hover path {
+    fill: var(--white-color);
+    transition: var(--base-hover-transition);
+}
+
+@media screen and (min-width: 720px) and (max-width: 1023px) {
+
+    /*Download button*/
+    .download-button {
+        height: 35px;
+        width: 192px;
+    }
+
+    /*Partners form input*/
+    .partners-form-input {
+        margin-bottom: 15px;
+    }
+
+    .partners-form-input:last-child {
+        margin-bottom: 30px;
+    }
+
+    /*Partners form submit button*/
+    .partners-form-submit-button {
+        width: 237px;
+        height: 49px;
+        padding: 0px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /*Web-client link button*/
+    .web-client-link-button {
+        height: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+
+    /*Download button*/
+    .download-button {
+        width: 162px;
+        height: 29px;
+        font-size: 16px;
+    }
+
+    /*Partners form input*/
+    .partners-form-input {
+        margin-bottom: 15px;
+    }
+
+    .partners-form-input:last-child {
+        margin-bottom: 30px;
+    }
+
+    /*Partners form submit button*/
+    .partners-form-submit-button {
+        font-size: 18px;
+        width: 223px;
+        height: 49px;
+        padding: 0px;
+    }
+
+    /*Web-client link button*/
+    .web-client-link-button {
+        height: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+    /*Download button*/
+    .download-button {
+        height: 35px;
+        width: 155px;
+        font-size: 16px;
+    }
+
+    /*Partners form input*/
+    .partners-form-input {
+        margin-bottom: 15px;
+    }
+
+    .partners-form-input:last-child {
+        margin-bottom: 30px;
+    }
+
+    /*Partners form submit button*/
+    .partners-form-submit-button {
+        font-size: 16px;
+        width: 212px;
+        height: 49px;
+        padding: 0px;
+    }
+
+
+
+    /*Web-client link button*/
+    .web-client-link-button {
+        height: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 5px;
+    }
+}

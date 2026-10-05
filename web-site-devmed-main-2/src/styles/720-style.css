@@ -1,0 +1,486 @@
+@import url('variables.css');
+
+.main-page-header-container {
+    padding: 13px 0px 13px 0px;
+    width: var(--c-720-width);
+}
+
+.main-page-header-logo {
+    gap: 4px;
+}
+
+.main-page-header-logo-i {
+    width: 34px;
+    height: 28px;
+}
+
+.main-page-header-logo-text {
+    width: 58px;
+    height: 20px
+}
+
+.main-page-header-navbar nav a {
+    font-size: 15px;
+}
+
+.main-page-container-base {
+    width: var(--c-720-width);
+    padding-top: 21px;
+    gap: 0px;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.main-page-container-base-l-2 {
+    margin-top: 5px;
+    gap: 0px;
+    position: relative;
+}
+
+.main-page-container-base-l-1 {
+    font-size: 40px;
+    line-height: 55px;
+    width: 577px;
+}
+
+.main-page-container-base-l-1 img {
+    width: 140px;
+    height: 51px;
+}
+
+.main-page-container-base-l-2-l {
+    gap: 30px;
+}
+
+.main-page-container-base-l-2-l-text-1 {
+    font-size: 16px;
+    width: 300px;
+}
+
+.main-page-container-base-l-2-l-text-2 {
+    width: 320px;
+    text-overflow: clip;
+    height: 35px;
+    overflow: hidden;
+}
+
+.main-page-container-base-l-2-r {
+    position: absolute;
+    right: 133px;
+    bottom: 0px;
+}
+
+.main-page-container-base-l-2-r img {
+    width: 107px;
+    height: 128px;
+}
+
+.main-page-container-base-r img {
+    width: 164px;
+    height: 204px;
+    position: absolute;
+    right: 0px;
+    bottom: 35px;
+}
+
+.install-section-st-container {
+    width: var(--c-720-width);
+    padding-top: 48px;
+    padding-bottom: 28px;
+    gap: 0px;
+    height: fit-content;
+    position: relative;
+}
+
+.install-section-st-info-text-1 {
+    font-size: 26px;
+    padding-top: 0px;
+    width: 500px;
+}
+
+.install-section-st-info-text-2 {
+    font-size: 20px;
+    width: 335px;
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+
+.install-section-st-img {
+    width: 354px;
+    height: 205px;
+    position: absolute;
+    right: 0px;
+    bottom: 29px;
+}
+
+.install-section-st-info-links {
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+.install-section-st-info-links1 img {
+    width: 140px;
+    height: 47px;
+}
+
+.install-section-st-info-links2 img {
+    width: 152px;
+    height: 45px;
+}
+
+.about-section-st {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.about-section-st-container {
+    width: var(--c-720-width);
+    gap: 24px
+}
+
+.about-section-st-title {
+    width: 307px;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.about-section-st-items {
+    gap: 15px;
+    height: 187px;
+}
+
+.about-section-st-items-item {
+    border-radius: var(--small-conatiner-border-radius-720);
+}
+
+.about-section-st-items-item-title {
+    font-size: 16px;
+}
+
+#about-section-st-items-item-title1 {
+    width: 79px;
+}
+
+#about-section-st-items-item-title3 {
+    width: 96px;
+}
+
+#about-section-st-items-item1 {
+    padding: 20px 0px 28px 10px;
+}
+
+#about-section-st-items-item2 {
+    padding: 20px 0px 8px 10px;
+}
+
+#about-section-st-items-item3 {
+    padding: 20px 0px 17px 10px;
+}
+
+.about-section-st-items-item-desc {
+    font-size: 14px;
+}
+
+#about-section-st-items-item-desc1 {
+    width: 182px;
+}
+
+#about-section-st-items-item-desc2 {
+    width: 187px;
+}
+
+#about-section-st-items-item-desc3 {
+    width: 178px;
+}
+
+.about-section-st-items-item-img1 {
+    width: 67px;
+    height: 52px;
+}
+
+.about-section-st-items-item-img2 {
+    width: 66px;
+    height: 64px;
+}
+
+.about-section-st-items-item-img3 {
+    width: 51px;
+    height: 51px;
+}
+
+.stub-section-info {
+    width: var(--c-720-width);
+}
+
+.stub-section-info-container {
+    padding-top: 41px;
+    padding-left: 16px;
+}
+
+.stub-section-info-text {
+    padding-top: 0px;
+}
+
+.stub-section-info-text-title {
+    font-size: 26px;
+    padding-bottom: 30px;
+    width: 360px;
+}
+
+.stub-section-info-text-desc {
+    font-size: 18px;
+    padding-bottom: 20px;
+    width: 349px;
+}
+
+.partners-section-st {
+    padding-top: 28px;
+    padding-bottom: 46px;
+}
+
+.partners-section-st-data {
+    width: var(--c-720-width);
+    border-radius: var(--big-container-border-radius-720);
+}
+
+.partners-section-st-data-container {
+    padding: 45px 5px 40px 25px;
+}
+
+.partners-section-st-data-l {
+    gap: 36px;
+}
+
+.partners-section-st-data-l-title {
+    font-size: 20px;
+}
+
+.partners-section-st-data-l-carousel {
+    width: 304px;
+}
+
+.partners-section-st-data-l-carousel-item {
+    flex: 0 0 101px;
+    height: 219px;
+    margin: 0 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
+}
+
+.partners-section-st-data-l-logo {
+    gap: 22px;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.partners-section-st-data-l-logo img:nth-child(1) {
+    width: 92px;
+    height: 76px;
+}
+
+.partners-section-st-data-l-logo img:nth-child(2) {
+    width: 103px;
+    height: 38px;
+}
+
+.partners-form-input label {
+    font-size: 16px;
+}
+
+.partners-form-input input::placeholder {
+    font-size: 18px;
+}
+
+.partners-form-input input {
+    font-size: 18px;
+}
+
+.partners-section-st-data-form {
+    gap: 0px;
+    width: 344px;
+    padding-top: 18px;
+    padding-left: 44px;
+    padding-bottom: 20px;
+}
+
+.main-page-footer {
+    height: 293px;
+}
+
+.main-page-footer-container {
+    width: var(--c-720-width);
+    padding-bottom: 46px;
+    position: relative;
+}
+
+.main-page-footer-l-docs {
+    padding-top: 42px;
+    gap: 22px;
+}
+
+.main-page-footer-l-docs a {
+    font-size: 18px;
+}
+
+.main-page-footer-r-nav a {
+    font-size: 15px;
+}
+
+.main-page-footer-r {
+    position: absolute;
+    padding: 0px;
+    top: 39px;
+    right: 0px;
+}
+
+.main-page-footer-r-links {
+    gap: 30px;
+    padding-top: 44px;
+    padding-left: 96px;
+}
+
+.main-page-container-base-l-2-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 22px;
+    height: fit-content;
+}
+
+.main-page-download-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.install-section-st-container-img {
+    position: absolute;
+    height: fit-content;
+    right: 0px;
+    bottom: 74px;
+}
+
+.install-section-st-container-img img {
+    width: 354px;
+    height: 205px;
+}
+
+#web-client-link-button-install-section-st-container {
+    font-size: 15px;
+    padding-left: 26px;
+    padding-right: 11px;
+    gap: 10px;
+    height: 45px;
+}
+
+#web-client-link-button-install-section-st-container svg {
+    width: 15px;
+    height: 13px;
+}
+
+.stub-section-info-container-img {
+    height: 242px;
+    width: 222px;
+    overflow: hidden;
+    border-bottom-left-radius: 40px;
+}
+
+.stub-section-info-buttons {
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+}
+
+#web-client-link-button-stub-section-info {
+    padding-left: 25px;
+    padding-right: 11px;
+    gap: 10px;
+    font-size: 15px;
+    height: 35px;
+}
+
+.main-page-footer-download-buttons-container {
+ display: row;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+#web-client-link-button-stub-section-info svg {
+    width: 15px;
+    height: 13px;
+}
+
+/*Download Modal */
+.download-app-modal-container {
+    padding: 34px 43px 29px 52px;
+    height: 267px;
+    width: 525px;
+    border-radius: var(--big-container-border-radius-1024);
+}
+
+.download-app-modal-container-l {
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+
+.download-app-modal-container-r {
+    width: 100%;
+    height: 100%;
+}
+
+.download-app-modal-container-close {
+    top: 20px;
+    right: 20px;
+}
+
+.download-app-modal-container-r-title {
+    font-size: 18px;
+    align-self: center;
+    padding-bottom: 53px;
+}
+
+.download-app-modal-container-r-content {
+    gap: 67px;
+}
+
+.download-app-modal-container-r-content-1-item {
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.download-app-modal-container-r-content-2.selected {
+    gap: 20px;
+    height: 100%;
+}
+
+.download-app-modal-container-r-content-2-item-text {
+    font-size: 16px;
+}
+
+#download-app-modal-container-r-content-2-ios-id {
+    margin-top: 1px;
+}
+
+#download-app-modal-container-r-content-2-android-id {
+    margin-top: 29px;
+}
+
+.download-app-modal-container-r-content-2-link-item {
+    margin-top: auto;
+    width: 192px;
+    height: 35px;
+    align-self: center;
+}
+
+#download-app-modal-container-r-content-2-mac-os-id {
+    margin-top: 5px;
+}
+
+.banner-section {
+    padding-bottom: 46px;
+}

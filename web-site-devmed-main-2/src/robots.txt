@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /$
+Disallow: /
+
+User-agent: Yandex
+Allow: /$
+Disallow: /
+
+User-agent: Googlebot
+Allow: /$
+Disallow: /
+
+Sitemap: https://zorki.by/sitemap.xml

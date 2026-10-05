@@ -1,0 +1,11 @@
+services:
+  web-site-mis:
+    image: web-site-mis
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      API_URL: http://192.168.10.31:5000
+      SERVER_NAME: 192.168.10.31
+    ports:
+      - "3001:80"

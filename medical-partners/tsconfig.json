@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target": "es2024",
+		"lib": ["DOM", "DOM.Iterable", "ES2024"],
+		"module": "esnext",
+		"moduleResolution": "Node",
+		"jsx": "react-jsx",
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"noEmitOnError": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowJs": false,
+		"paths": {
+			"@*": ["./src/*"],
+			"@api-gen": ["./src/api-gen"],
+			"@app": ["./src/app"],
+			"@core": ["./src/core"],
+			"@features": ["./src/features"],
+			"@app/*": ["./src/app/*"],
+			"@core/*": ["./src/core/*"],
+			"@features/*": ["./src/features/*"],
+			"@router": ["./src/router"],
+			"@router/*": ["./src/router/"],
+			"@store": ["./src/store"],
+			"@store/*": ["./src/store/"],
+			"@contexts": ["./src/contexts"],
+			"@contexts/*": ["./src/contexts/"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

@@ -1,0 +1,2 @@
+export const QUESTION_MODAL = 'QUESTION_MODAL';
+export const FEEDBACK_MODAL = 'FEEDBACK_MODAL';

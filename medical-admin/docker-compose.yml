@@ -1,0 +1,11 @@
+services:
+  web-admin-mis:
+    image: web-admin-mis
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      API_URL: http://192.168.10.31:5000
+      SERVER_NAME: 192.168.10.31
+    ports:
+      - "3002:80"

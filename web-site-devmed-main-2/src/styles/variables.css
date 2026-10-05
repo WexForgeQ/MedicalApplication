@@ -1,0 +1,53 @@
+:root {
+    /*Colors*/
+    --text-color: #FFFFFF;
+    --main-color: #114878;
+    --menu-color: #114878;
+    --menu-color2: #114878;
+    --back-color: #FAFAFA;
+    --main-grey-color: #5E5E5E;
+    --text-filter-color: #929292;
+    --white-color: #FFFFFF;
+    --no-active: #B8B8B8;
+
+    /*Fonts*/
+    --main-font: 'Montserrat', sans-serif;
+    --sub-font: 'Hanken Grotesk', sans-serif;
+
+    /*Border radius*/
+    --img-border-radius: 20px;
+    --section-border-radius: 60px;
+    --small-conatiner-border-radius: 30px;
+    --small-conatiner-border-radius-720: 20px;
+    --big-container-border-radius: 50px;
+    --button-border-raduis: 24px;
+    --big-container-border-radius-1024: 40px;
+    --big-container-border-radius-720: 30px;
+
+    /*Transition*/
+    --base-transition: 0.3s;
+    --base-hover-transition: 0.3s;
+    --base-active-transition: 0.2s;
+
+    /*animations*/
+    --section-show-in-animation-left: sectionShowInFromLeft 0.5s;
+    --section-show-in-animation-right: sectionShowInFromRight 0.5s;
+    --modal-pop-in-animation: modalPopIn 0.2s ease-in-out;
+
+    /*Device view widths*/
+    --d-width-1439: 1439px;
+    --d-width-1024: 1024px;
+    --d-width-1023: 1023px;
+    --d-width-720: 720px;
+    --d-width-719: 719px;
+    --d-width-480: 480px;
+    --d-width-479: 479px;
+    --d-width-320: 320px;
+
+    /*Container width*/
+    --c-full-width: 1158px;
+    --c-1024-width: 938px;
+    --c-720-width: 620px;
+    --c-480-width: 460px;
+    --c-320-width: 320px;
+}

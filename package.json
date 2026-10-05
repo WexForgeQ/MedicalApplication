@@ -1,8 +1,11 @@
 {
-  "dependencies": {
-    "@headlessui/react": "^2.2.9",
-    "@tanstack/react-table": "^8.21.3",
-    "@tanstack/react-virtual": "^3.13.13",
-    "react-icons": "^5.5.0"
+  "name": "medical-application",
+  "private": true,
+  "description": "Pet project: medical MIS — clinic, admin, partners and landing",
+  "scripts": {
+    "dev:mis": "npm run dev --prefix client/web-site-mis",
+    "dev:admin": "npm run dev --prefix medical-admin",
+    "dev:partners": "npm run dev --prefix medical-partners",
+    "dev:webui": "npm run dev --prefix medical/webui"
   }
 }
